@@ -197,6 +197,8 @@ clear: both;
         min-width: 200px;
         height: 100px;
         margin: auto;
+        border: solid 5px #fff;
+
 }
 
 
@@ -213,7 +215,9 @@ clear: both;
 
   @media only screen and (max-width: 980px){
     .portfolio-item-1, .portfolio-item-2, .portfolio-item-3{
-        /* width: 30%; */
+        margin: auto;
+        width: 85%;
+        min-height: 100px;;
         }
   }
 
